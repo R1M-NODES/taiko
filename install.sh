@@ -12,7 +12,6 @@ cd $HOME || return
 git clone https://github.com/taikoxyz/simple-taiko-node.git && cd $HOME/simple-taiko-node || exit
 cp .env.sample .env
 
-docker-compose up -d
+docker compose up -d
 
-
-printGreen "To see logs use: cd \$HOME/simple-taiko-node && docker-compose logs"
+printGreen "To see logs use: cd \$HOME/simple-taiko-node && docker compose logs"
