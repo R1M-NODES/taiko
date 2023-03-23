@@ -14,4 +14,4 @@ cp .env.sample .env
 
 docker compose up -d
 
-printGreen "To see logs use: cd \$HOME/simple-taiko-node && docker compose logs"
+printGreen "To see logs use: cd $HOME/simple-taiko-node && docker compose logs"
